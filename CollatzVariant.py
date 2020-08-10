@@ -112,3 +112,5 @@ elif (choice == "3"):
     singleCollatz(int(num))
 else:
     print("ERROR!")
+
+input("Press any key to close")

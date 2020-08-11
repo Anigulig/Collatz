@@ -2,3 +2,4 @@ build
 GUI
 CollatzVariant.spec
 __pycache__
+.vscode/

@@ -5,6 +5,8 @@ The Collatz conjecture is a conjecture in mathematics considered to be an extrem
 The Collatz Conjecture is very simply stated and easy to understand. Take any arbitrary positive integer.
 If the number is even, divide it by 2 and if the number is odd, multiply the number by 3 and add 1. Perform the same operation on the number obtained and on the numbers obtained successively. The Collatz conjecture states that all such sequences will end in the number 1. For example:
 
+**3, 10, 5, 16, 8, 4, 2, 1** (Stepwise explanation below)
+
 3   --> arbitrary positive integer
 
 10  = 3 x 3 + 1

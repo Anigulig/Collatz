@@ -1,5 +1,4 @@
 build
 GUI
 CollatzVariant.spec
-
-__pycache__/CollatzVariant.cpython-36.pyc
+__pycache__

@@ -14,7 +14,6 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-import time
 def collatz(limit):
     num = 1
     while num < int(limit) + 1:
@@ -61,18 +60,14 @@ def stopTimes():
         while loop != 1:
             if (number % 2 == 0):
                 number = int(number/2)
-                '''print(number)'''
             elif (number % 2 != 0):
                 number = int((number * 3) + 1)
-                '''print(number)'''
-            elif (number == 1):
-                '''print("1")'''
             loop = number
             terms += 1
                 
         else:
             #print("THE END!")
-            #print("Number: " + str(num) + ", Stopping time: " + str(terms))
+            print("Number: " + str(num) + ", Stopping time: " + str(terms))
             #print(terms)
             if (num == 1):
                 stopTime = terms

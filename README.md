@@ -25,7 +25,7 @@ If the number is even, divide it by 2 and if the number is odd, multiply the num
 
 More information can be viewed at the wikipedia page https://en.wikipedia.org/wiki/Collatz_conjecture
 
-#Program specific information:
+# Program specific information:
 
 Please note that the program is not capable of error handling currently. Therefore, it would be necessary to rerun the program if the user hits an error while running the program. Errors should be minimal (only arising when the user provides input at the beginning of the program). I am currently working on this issue and will have it solved optimistically within a few days (by 15 August 2020). 
 

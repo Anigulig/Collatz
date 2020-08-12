@@ -24,3 +24,10 @@ If the number is even, divide it by 2 and if the number is odd, multiply the num
 1   = 2 / 1
 
 More information can be viewed at the wikipedia page https://en.wikipedia.org/wiki/Collatz_conjecture
+
+Program specific information:
+
+Please note that the program is not capable of error handling currently. Therefore, it would be necessary to rerun the program if the user hits an error while running the program. Errors should be minimal (only arising when the user provides input at the beginning of the program). I am currently working on this issue and will have it solved optimistically within a few days (by 15 August 2020 => DD-MM-YYYY). 
+
+Thank you to whoever uses the program. Please do tell your friends about the existence of a conjecture such as this. You may
+not mention to them about this program but it would be helpful if you do. This way, more people will come to know about the existence of the Collatz conjecture and will also have at hand a quick way to try it out. This is the aim of this project of mine, that is, to make more people aware.

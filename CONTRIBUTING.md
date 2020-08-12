@@ -1,0 +1,1 @@
+Contribution is open to everyone provided that the contributions are worthwhile for the project. A good place to start contributing would be to make the documentation of the program more extensive. Addition of helpful comments to the source is always welcome. 

@@ -78,10 +78,10 @@ def stopTimes():
     else:
         print("End of your request!")   
         print("The maximum total stopping time is " + str(stopTime) + " for the number " + str(longestTerm))  
-        check = input("Enter 1 to perform the Collatz algorithm on this number.")
-        if (check == "1"):
+        check = input("Do you want to perform the Collatz Algorithm on this number? (y/n) ")
+        if (check == "y" or check == "Y"):
             singleCollatz(longestTerm)
-        else:  
+        elif (check == "n" or check == "N"):  
             return 0
 
 def singleCollatz(num):

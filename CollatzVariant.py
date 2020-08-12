@@ -31,8 +31,7 @@ def collatz(limit):
             elif (number == 1):
                 print("1")
             loop = number
-            terms += 1
-            
+            terms += 1     
         else:
             print("THE END!")
             print("The total stopping time is " + str(terms))
@@ -46,8 +45,8 @@ def collatz(limit):
                     stopTime = stopTime
         num += 1
     else:
-          print("End of your request!")   
-          print("The maximum total stopping time is " + str(stopTime) + " for the number " + str(longestTerm))
+        print("End of your request!")   
+        print("The maximum total stopping time is " + str(stopTime) + " for the number " + str(longestTerm))
 
 def stopTimes():
     num = 1
@@ -63,7 +62,6 @@ def stopTimes():
                 number = int((number * 3) + 1)
             loop = number
             terms += 1
-                
         else:
             print("Number: " + str(num) + ", Stopping time: " + str(terms))
             if (num == 1):

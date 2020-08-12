@@ -53,7 +53,6 @@ def stopTimes():
     num = 1
     limit = input("Enter the number upto which for all numbers, the Collatz algorithm is to be applied.")
     while num < int(limit) + 1:
-        #print(num)
         number = num
         loop = 2
         terms = 0
@@ -66,9 +65,7 @@ def stopTimes():
             terms += 1
                 
         else:
-            #print("THE END!")
             print("Number: " + str(num) + ", Stopping time: " + str(terms))
-            #print(terms)
             if (num == 1):
                 stopTime = terms
             else:

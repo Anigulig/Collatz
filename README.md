@@ -25,6 +25,16 @@ If the number is even, divide it by 2 and if the number is odd, multiply the num
 
 1   = 2 / 1
 
+## Stoptime:
+
+The stoptime of any natural number (positive integer) with regards to the Collatz conjecture is defined as the numbers of steps that it takes for a given sequence to end. For example in the above sequence:
+
+3, 10, 5, 16, 8, 4, 2, 1
+
+The number of steps required = 7. Thus, the **stoptime of 3 is 7**.
+
+One may notice that the stoptime of any given number is one less than the number of numbers in the sequence (stoptime of 3 = 8  - 1)
+
 More information can be viewed at the wikipedia page https://en.wikipedia.org/wiki/Collatz_conjecture
 
 # Program specific information:

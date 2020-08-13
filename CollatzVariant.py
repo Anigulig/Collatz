@@ -89,8 +89,6 @@ def stopTimes():
         elif (check == "n" or check == "N"):  
             return 0
 
-        
-
 def singleCollatz(num):
     loop = 2
     terms = 0
@@ -108,7 +106,6 @@ def singleCollatz(num):
     else:
         print("THE END!")
         print("The total stopping time is " + str(terms))
-
 
 print("Enter 1 to perform Collatz algorithm for all natural numbers upto this number.")
 print("Enter 2 to only calculate stopping times for the Collatz conjecture")

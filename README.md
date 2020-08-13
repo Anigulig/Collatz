@@ -1,4 +1,6 @@
 # Collatz
+*Please note that this branch of the repository will be maintained for the creation of graphs to display information generated in the program on the Collatz conjecture.*
+
 A python program to run the Collatz algorithm.
 The Collatz conjecture is a conjecture in mathematics considered to be an extremely difficult problem to solve. It is named after Lothar Collatz, the person who introduced this idea.
 

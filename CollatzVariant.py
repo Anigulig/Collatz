@@ -14,6 +14,8 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
+import graph
+
 def collatz(limit):
     num = 1
     while num < int(limit) + 1:
@@ -49,6 +51,7 @@ def collatz(limit):
         print("The maximum total stopping time is " + str(stopTime) + " for the number " + str(longestTerm))
 
 def stopTimes():
+    stoptimes_array = []
     num = 1
     limit = input("Enter the number upto which for all numbers, the Collatz algorithm is to be applied.")
     while num < int(limit) + 1:
@@ -64,6 +67,7 @@ def stopTimes():
             terms += 1
         else:
             print("Number: " + str(num) + ", Stopping time: " + str(terms))
+            stoptimes_array.append(terms)
             if (num == 1):
                 stopTime = terms
             else:
@@ -75,12 +79,17 @@ def stopTimes():
         num += 1
     else:
         print("End of your request!")   
-        print("The maximum total stopping time is " + str(stopTime) + " for the number " + str(longestTerm))  
-        check = input("Do you want to perform the Collatz Algorithm on this number? (y/n) ")
-        if (check == "y" or check == "Y"):
+        print("The maximum total stopping time is " + str(stopTime) + " for the number " + str(longestTerm)) 
+        choice = input("Do you want to see a graph that displays this information? (y/n) ")
+        if choice == 'y':
+            graph.displaystoptimesGraph(stoptimes_array)
+        check = input("Enter 1 to perform the Collatz algorithm on this number.")
+        if (check == "1"):
             singleCollatz(longestTerm)
         elif (check == "n" or check == "N"):  
             return 0
+
+        
 
 def singleCollatz(num):
     loop = 2

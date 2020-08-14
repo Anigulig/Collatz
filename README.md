@@ -26,7 +26,7 @@ If the number is even, divide it by 2 and if the number is odd, multiply the num
 
 ## Stoptime:
 
-The stoptime of any natural number (positive integer) with regards to the Collatz conjecture is defined as the numbers of steps that it takes for a given sequence to end. For example in the above sequence:
+The stoptime of any natural number (positive integer) with regards to the Collatz conjecture is defined as the number of steps that it takes for a given sequence to end. For example in the above sequence:
 
 3, 10, 5, 16, 8, 4, 2, 1
 

@@ -46,9 +46,8 @@ def collatz(limit):
                 else:
                     stopTime = stopTime
         num += 1
-    else:
-        print("End of your request!")   
-        print("The maximum total stopping time is " + str(stopTime) + " for the number " + str(longestTerm))
+    print("End of your request!")   
+    print("The maximum total stopping time is " + str(stopTime) + " for the number " + str(longestTerm))
 
 def stopTimes():
     stoptimes_array = []
@@ -77,17 +76,16 @@ def stopTimes():
                 else:
                     stopTime = stopTime
         num += 1
-    else:
-        print("End of your request!")   
-        print("The maximum total stopping time is " + str(stopTime) + " for the number " + str(longestTerm)) 
-        choice = input("Do you want to see a graph that displays this information? (y/n) ")
-        if choice == 'y':
-            graph.displaystoptimesGraph(stoptimes_array)
-        check = input("Enter 1 to perform the Collatz algorithm on this number.")
-        if (check == "1"):
-            singleCollatz(longestTerm)
-        elif (check == "n" or check == "N"):  
-            return 0
+    print("End of your request!")   
+    print("The maximum total stopping time is " + str(stopTime) + " for the number " + str(longestTerm)) 
+    choice = input("Do you want to see a graph that displays this information? (y/n) ")
+    if choice == 'y':
+        graph.displaystoptimesGraph(stoptimes_array)
+    check = input("Enter 1 to perform the Collatz algorithm on this number.")
+    if (check == "1"):
+        singleCollatz(longestTerm)
+    elif (check == "n" or check == "N"):  
+        return 0
 
 def singleCollatz(num):
     loop = 2
@@ -103,9 +101,8 @@ def singleCollatz(num):
             print("1")
         loop = num
         terms += 1
-    else:
-        print("THE END!")
-        print("The total stopping time is " + str(terms))
+    print("THE END!")
+    print("The total stopping time is " + str(terms))
 
 print("Enter 1 to perform Collatz algorithm for all natural numbers upto this number.")
 print("Enter 2 to only calculate stopping times for the Collatz conjecture")

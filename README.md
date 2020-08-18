@@ -1,3 +1,9 @@
+#  Github user Anigulig:
+
+Please visit this webpage:
+https://github.com/ZanderKraig44/Collatz/wiki
+
+
 # Collatz
 
 A python program to run the Collatz algorithm.
